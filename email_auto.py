@@ -5,8 +5,8 @@ import email
 
 attachment_dir = 'C:/Users/diwas/OneDrive/Desktop/Attachments'
 
-FROM_EMAIL ='bidoceantest@gmail.com'
-FROM_PWD = '@12345abcde'
+FROM_EMAIL ='write_your_email'
+FROM_PWD = 'write_your_password'
 SMTP_SERVER='imap.gmail.com'
 port=993
 mail = imaplib.IMAP4_SSL(SMTP_SERVER)
